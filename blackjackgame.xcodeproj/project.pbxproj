@@ -11,6 +11,9 @@
 		5F730D5E27DD30A8001BB406 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D5D27DD30A8001BB406 /* ContentView.swift */; };
 		5F730D6027DD30AA001BB406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F730D5F27DD30AA001BB406 /* Assets.xcassets */; };
 		5F730D6327DD30AA001BB406 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F730D6227DD30AA001BB406 /* Preview Assets.xcassets */; };
+		5F730D6A27DD5109001BB406 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D6927DD5109001BB406 /* HomeView.swift */; };
+		5F730D6C27DD511E001BB406 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D6B27DD511E001BB406 /* GameView.swift */; };
+		5F730D6E27DE82B8001BB406 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D6D27DE82B8001BB406 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		5F730D5D27DD30A8001BB406 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F730D5F27DD30AA001BB406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F730D6227DD30AA001BB406 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F730D6927DD5109001BB406 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5F730D6B27DD511E001BB406 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		5F730D6D27DE82B8001BB406 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,8 @@
 			children = (
 				5F730D5B27DD30A8001BB406 /* blackjackgameApp.swift */,
 				5F730D5D27DD30A8001BB406 /* ContentView.swift */,
+				5F730D6927DD5109001BB406 /* HomeView.swift */,
+				5F730D6F27DE82CD001BB406 /* game */,
 				5F730D5F27DD30AA001BB406 /* Assets.xcassets */,
 				5F730D6127DD30AA001BB406 /* Preview Content */,
 			);
@@ -65,6 +73,15 @@
 				5F730D6227DD30AA001BB406 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F730D6F27DE82CD001BB406 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				5F730D6B27DD511E001BB406 /* GameView.swift */,
+				5F730D6D27DE82B8001BB406 /* CardView.swift */,
+			);
+			path = game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F730D6A27DD5109001BB406 /* HomeView.swift in Sources */,
 				5F730D5E27DD30A8001BB406 /* ContentView.swift in Sources */,
+				5F730D6C27DD511E001BB406 /* GameView.swift in Sources */,
 				5F730D5C27DD30A8001BB406 /* blackjackgameApp.swift in Sources */,
+				5F730D6E27DE82B8001BB406 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
