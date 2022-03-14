@@ -14,6 +14,8 @@
 		5F730D6A27DD5109001BB406 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D6927DD5109001BB406 /* HomeView.swift */; };
 		5F730D6C27DD511E001BB406 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D6B27DD511E001BB406 /* GameView.swift */; };
 		5F730D6E27DE82B8001BB406 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D6D27DE82B8001BB406 /* CardView.swift */; };
+		5F730D7127DF319B001BB406 /* PlayingCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D7027DF319B001BB406 /* PlayingCardType.swift */; };
+		5F730D7327DF370A001BB406 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F730D7227DF370A001BB406 /* PlayingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5F730D6927DD5109001BB406 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5F730D6B27DD511E001BB406 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		5F730D6D27DE82B8001BB406 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5F730D7027DF319B001BB406 /* PlayingCardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardType.swift; sourceTree = "<group>"; };
+		5F730D7227DF370A001BB406 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			children = (
 				5F730D6B27DD511E001BB406 /* GameView.swift */,
 				5F730D6D27DE82B8001BB406 /* CardView.swift */,
+				5F730D7027DF319B001BB406 /* PlayingCardType.swift */,
+				5F730D7227DF370A001BB406 /* PlayingCard.swift */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -156,8 +162,10 @@
 			files = (
 				5F730D6A27DD5109001BB406 /* HomeView.swift in Sources */,
 				5F730D5E27DD30A8001BB406 /* ContentView.swift in Sources */,
+				5F730D7127DF319B001BB406 /* PlayingCardType.swift in Sources */,
 				5F730D6C27DD511E001BB406 /* GameView.swift in Sources */,
 				5F730D5C27DD30A8001BB406 /* blackjackgameApp.swift in Sources */,
+				5F730D7327DF370A001BB406 /* PlayingCard.swift in Sources */,
 				5F730D6E27DE82B8001BB406 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,10 +17,11 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
+            
             VStack {
-                Text("Dealer").padding()
+                Text("Dealer").bold()
                 Text("Score")
-                Text(String(dealerScore)).padding()
+                Text(String(dealerScore))
                 HStack {
                     CardView()
                     CardView()
@@ -30,16 +31,36 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Text("You").padding()
+                Text("You").bold()
                 Text("Score")
                 Text(String(playerScore))
-                HStack {
-                    CardView()
-                    CardView()
+                VStack {
+                    HStack {
+                        CardView()
+                        CardView()
+                    }
+                    HStack {
+                        CardView()
+                        CardView()
+                        CardView()
+                    }
+                    
+                    HStack {
+                        Button("Hit")
+                        { print("hit") }
+                        .padding(.all)
+                        
+                        Button("Stay")
+                        { print("stay") }
+                        .padding(.all)
+                    }
                 }
+                
+                
+                
                 Spacer()
                 
-                CardView()
+                
                 
             }
             

@@ -1,2 +1,5 @@
-blackjackgame.xcodeproj
-/blackjackgame/Assets.xcassets
+## AppCode
+.idea
+
+## Finder metadata
+.DS_Store
