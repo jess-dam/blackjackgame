@@ -11,6 +11,28 @@ struct ContentView: View {
     var dealerScore = 0
     var playerScore = 0
     
+    func setUp () -> Void {
+        // assign values to cards via csv
+    }
+    
+    func playGame () -> Void {
+        // dealer gets a random three cards (hidden)
+        
+        // player gets a random two cards initially
+        
+        // LOOP
+            // check if player's score is equal or higher than 21
+                // if true, end game (they either won or went bust)
+        
+            // check if player has 5 cards
+                // if true, end game (5 cards is their limit for now)
+                
+            // otherwise give them the hit and stay buttons
+        
+            // if hit, give them another random card
+            // if stay, show dealer's hand, end game
+    }
+    
     var body: some View {
         ZStack {
             Image("background")
